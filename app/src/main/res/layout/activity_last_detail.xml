@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_last_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".LastDeatils">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+   <Button
+       android:layout_width="wrap_content"
+       android:text="book Now"
+       android:layout_gravity="right"
+       android:gravity="center"
+       android:layout_marginLeft="100dp"
+       android:id="@+id/booknonow1"
+       android:background="@color/primary_500"
+       android:layout_height="wrap_content"
+       android:textColor="@color/white"
+       />
+
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/entertaiment"
+                android:background="@drawable/beautyparlors"
+                android:paddingTop="70dp"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:text="@string/beautyparlors"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/cartering"
+                android:paddingTop="70dp"
+                android:gravity="center"
+                android:text="@string/cateres"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/coconutmerchants"
+                android:paddingTop="70dp"
+                android:gravity="center"
+                android:text="@string/coconutmerchants"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/beauty"
+                android:background="@drawable/coffeesuppliers"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/coffeesuppliers"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/condimentstraditionalfoods"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/condiment"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/dairyproducts"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/dairyproducts"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/condiment"
+                android:background="@drawable/detectiveservices"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/detective"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/entertainment"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/entertainment"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/ethnicwear"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/ethnicwear"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/ethicwear"
+                android:background="@drawable/flower"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/flower"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/flowerdecorators"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/flowerdecorators"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/fruitmerchants"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/fruitmerchants"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/furniture"
+                android:background="@drawable/furniture"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/furniture"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/gasequipmentsservices"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/gasquipment"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/generatorhires"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/generatorhires"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/gentsbeauty"
+                android:background="@drawable/gentsbeautysaloon"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/gentsbeauty"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/giftitems"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/giftitems"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/horseproviders"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/horseprovider"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/hotellodge"
+                android:background="@drawable/jewelleryhires"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/jewellery"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/lights"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/lights"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/marriagesbureausmatrimonialservices"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/marriagebureau"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/lights"
+                android:background="@drawable/mehdi"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/mehendi"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/mensuiting"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/mensuiting"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/mentailoring"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/mentailoring"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/mensuiting"
+                android:background="@drawable/milksuppliers"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/milksuppliers"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/mineralwatersuppliers"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/mineralwatersuppliers"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/nadaswara"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/nadaswara"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/mineralwater"
+                android:background="@drawable/nurseryflowerpots"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/nurseryflowerpots"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/orchestra"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/orchestra"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/panleaf"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/panleaf"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/orchest"
+                android:background="@drawable/photographers"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/photographers"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/plantainleaf"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/plantainleaf"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/plasticpaperbags"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/plasticpaperbags"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/plantainleaf"
+                android:background="@drawable/poojaitems"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/poojaitems"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/printers"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/printers"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/provisions"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/provisions"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/printer"
+                android:background="@drawable/resorts"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/resorts"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/silksarees"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/silksaree"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/softdrinks"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/softdrinks"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/silkboard"
+                android:background="@drawable/sweets"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/sweets"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/tentssuppliers"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/tentssuppliers"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/tourstravellers"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/tourstravellers"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/vediography"
+                android:background="@drawable/turbans"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/turbans"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:background="@drawable/videography"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/videography"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:background="@drawable/watersuppliers"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/watersuppliers"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:id="@+id/tentsupplier"
+                android:background="@drawable/weddingcards"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="@string/weddingcards"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

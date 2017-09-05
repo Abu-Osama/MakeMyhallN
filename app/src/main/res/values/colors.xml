@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8FB442</color>
+    <color name="colorPrimaryDark">#8FB442</color>
+    <color name="colorAccent">#8FB442</color>
+    <color name="white">#FFFFFF</color>
+    <color name="border">#8FB442</color>
+    <color name="hotelnamecolor">#000</color>
+
+    <color name="primary_500">#8FB442</color>
+    <!--Indigo 700-->
+    <color name="primary_700">#8FB442</color>
+
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+
+    <color name="proceed_disable">#DEDEDE</color>
+    <color name="proceed_enable">#72D63A</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="cyan_50">#E0F7FA</color>
+    <color name="amber_50">#FFF8E1</color>
+    <color name="purple_50">#F3E5F5</color>
+
+    <color name="light_blue">#8FB442</color>
+
+    <color name="grey">#e3e3e3</color>
+</resources>

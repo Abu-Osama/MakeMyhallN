@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9F9F9"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dcmindia.app.makemyhall.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="2dp"
+                android:elevation="10dp"
+                android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:focusable="false"
+                android:layout_marginBottom="-120dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/sliderimg"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="-190dp"
+                        android:layout_height="wrap_content"
+                        android:text="MakeMyHall"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="60dp"
+                    android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/place_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:padding="10dp"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:imeOptions="actionDone"
+                    android:ellipsize="end"
+                    android:background="@drawable/edit_text_home"
+                    android:textColorHint="@color/grey"
+                    android:hint="@string/autocomplete_hint"
+                    android:drawableLeft="@drawable/search"
+                    android:drawablePadding="9dp"
+                    android:textColor="@android:color/primary_text_light" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                >
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:src="@drawable/resortsnew"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="-10dp"
+                        android:id="@+id/cat1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="-20dp"
+                        android:textColor="#000"
+                        android:text="@string/photographers"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="-10dp"
+                        android:id="@+id/cat2"
+                        android:background="@drawable/resortsnew"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="-20dp"
+                        android:textColor="#000"
+                        android:text="@string/photographers"/>
+
+                    />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/cat3"
+                        android:layout_marginTop="-10dp"
+                        android:background="@drawable/resortsnew"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="-20dp"
+                        android:textColor="#000"
+                        android:text="@string/photographers"/>
+
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="-10dp"
+                        android:id="@+id/cat4"
+                        android:background="@drawable/resortsnew"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="-20dp"
+                        android:textColor="#000"
+                        android:text="@string/photographers"/>
+
+                    />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="-10dp"
+                        android:id="@+id/cat5"
+                        android:background="@drawable/resortsnew"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="-20dp"
+                        android:textColor="#000"
+                        android:text="@string/photographers"/>
+
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/cat6"
+                        android:layout_marginTop="-10dp"
+                        android:background="@drawable/resortsnew"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="-20dp"
+                        android:textColor="#000"
+                        android:text="@string/photographers"/>
+
+                    />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/more"
+                        android:layout_marginTop="-10dp"
+                        android:background="@drawable/resortsnew"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="-20dp"
+                        android:textColor="#000"
+                        android:text="more services"/>
+
+                    />
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+                </HorizontalScrollView>
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="-20dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="127dp"
+                        android:textColor="@color/hotelnamecolor"
+                        android:text="@string/marriegehall"
+                        android:gravity="center"
+                        android:paddingTop="90dp"
+                        android:id="@+id/weddingbutton"
+                        android:background="@drawable/weddingxml"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/hotelnamecolor"
+                        android:text="@string/party"
+                        android:gravity="center"
+                        android:paddingTop="90dp"
+                        android:layout_height="127dp"
+                        android:id="@+id/weddingbutton2"
+                        android:background="@drawable/partyxml"/>
+
+                </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="0dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/hotelnamecolor"
+                        android:gravity="center"
+                        android:paddingTop="90dp"
+                        android:layout_height="127dp"
+                        android:text="@string/exhibition"
+                        android:id="@+id/btnwedding3"
+                        android:background="@drawable/exhixml" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="127dp"
+                        android:text="@string/conferencehall"
+                        android:textColor="@color/hotelnamecolor"
+                        android:gravity="center"
+                        android:paddingTop="90dp"
+                        android:id="@+id/btnwedding4"
+                        android:background="@drawable/conferencexml"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/hotelnamecolor"
+                        android:gravity="center"
+                        android:paddingTop="90dp"
+                        android:text="@string/meetinghall"
+                        android:layout_height="127dp"
+                        android:id="@+id/btnweding5"
+                        android:background="@drawable/meetingxml" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/hotelnamecolor"
+                        android:gravity="center"
+                        android:paddingTop="90dp"
+                        android:text="@string/event"
+                        android:layout_height="127dp"
+                        android:id="@+id/btnwedding6"
+                        android:background="@drawable/tradexml" />
+
+                </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

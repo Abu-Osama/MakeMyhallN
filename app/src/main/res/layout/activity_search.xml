@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="1dp">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8FB442">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="1dp"
+            android:textStyle="bold"
+            android:id="@+id/backbtn1"
+            android:text="@string/Back"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:text="@string/Home"
+            android:id="@+id/homebtn1"
+            android:textAlignment="center"
+            android:gravity="end"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/autocomplete_places"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:ellipsize="end"
+        android:background="@drawable/edit_text_style"
+        android:textColorHint="@color/grey"
+        android:hint="@string/autocomplete_hint"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="9dp"
+        android:textColor="@android:color/primary_text_light" />
+
+    <ImageView
+        android:id="@+id/cross"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="-40dp"
+        android:src="@drawable/clear_button"/>
+        </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="3dp"
+    android:layout_weight=".28">
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/spinnerhall"
+        android:popupBackground="#191970"
+        android:popupElevation="5dp"
+        android:gravity="center"
+        android:id="@+id/spinnernew1">
+    </Spinner>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="250dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/dropdown" />
+
+</RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:background="#FFF"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/searchbtn"/>
+    </android.support.design.widget.AppBarLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        card_view:elevation="4dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/header"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_gravity="right|bottom"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/locationnear"
+            android:clickable="true"
+            android:drawableRight="@drawable/location_near"
+            android:textColor="#000"
+            android:text="@string/location" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical"
+        android:background="@color/white"
+        android:layout_below="@+id/autocomplete_places"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
